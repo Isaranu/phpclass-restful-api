@@ -1,7 +1,7 @@
 <?php
     @ob_start();
     @session_start();
-    $dblink = mysqli_connect('localhost','root','root','dealana');
+    $dblink = mysqli_connect('localhost','root','root','dbname');
     $dblink->query("set names utf8");
     global $dblink;
 
