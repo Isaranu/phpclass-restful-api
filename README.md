@@ -27,11 +27,18 @@ $dblink = mysqli_connect('localhost','root','root','dbname');
 ```
 
 - manage_class.php 
-
+```
 Class -> manageSql::insert
+```
+```
 Class -> manageSql::update
+```
+```
 Class -> manageSql::delete
+```
+```
 Class -> manageSql::select
+```
 
 You can use follow 'user/index.php'
 
